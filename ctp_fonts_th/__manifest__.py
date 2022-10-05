@@ -21,7 +21,7 @@
     'author': 'Cybernetics Plus Co., Ltd.',
     'website': 'https://www.cybernetics.plus',
     'live_test_url': 'https://www.cybernetics.plus',
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/banner.png'],
     "category": "Report",
     "license": "AGPL-3",
     'price': 9.99,
