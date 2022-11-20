@@ -10,35 +10,35 @@
 ###################################################################################
 
 {
-    'name': 'Fonts Thai',
-    'version': '15.0.1.0.1',
-    'summary': """ 
+    "name": "Fonts Thai",
+    "version": "15.0.1.0.1",
+    "summary": """ 
             Add Fonts Thai to Document Layout
             .""",
-    'description': """ 
+    "description": """ 
             Add Fonts Thai to Document Layout
             .""",
-    'author': 'Cybernetics Plus Co., Ltd.',
-    'website': 'https://www.cybernetics.plus',
-    'live_test_url': 'https://www.cybernetics.plus',
-    'images': ['static/description/banner.png'],
+    "author": "Cybernetics Plus Co., Ltd.",
+    "website": "https://www.cybernetics.plus",
+    "live_test_url": "https://www.cybernetics.plus",
+    "images": ["static/description/banner.gif"],
     "category": "Report",
     "license": "AGPL-3",
-    'price': 9.99,
-    'currency': 'EUR',
-    'application': True,
-    'installable': True,
-    'auto_install': True,
-    'contributors': [
-        'Developer <dev@cybernetics.plus>',
+    "price": 9.99,
+    "currency": "EUR",
+    "application": True,
+    "installable": True,
+    "auto_install": True,
+    "contributors": [
+        "Developer <dev@cybernetics.plus>",
     ],
     "depends": ["web"],
     "assets":{
-        'web.report_assets_common': [
-            'ctp_fonts_th/static/src/scss/fonts_style.scss',
+        "web.report_assets_common": [
+            "ctp_fonts_th/static/src/scss/fonts_style.scss",
         ],
-        'web.report_assets_pdf': [
-            'ctp_fonts_th/static/src/scss/fonts_style.scss',
+        "web.report_assets_pdf": [
+            "ctp_fonts_th/static/src/scss/fonts_style.scss",
         ],
     }
 }
